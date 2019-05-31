@@ -77,6 +77,7 @@ header {
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
+    padding: 10px 0px;
 }
 
 .logo {
@@ -238,6 +239,19 @@ header nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.blog-posts {
+    margin: 30px 0px;
+}
+
+.blog-posts h2 {
+    color: grey;
+}
+
+.blog-posts div {
+    padding: 20px 10px;
+    border-bottom: 1px dashed black;
 }
 
 footer {
