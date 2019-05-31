@@ -73,6 +73,26 @@ p {
 
 header {
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-image {
+    margin: 30px 0px;
 }
 
 .top-content {
