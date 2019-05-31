@@ -124,6 +124,20 @@ header nav a {
 }
 
 .about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.about-middle-content div {
+    width: 46%;
+    border-bottom: 1px dashed black;
+}
+
+.about-bottom-content {
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .middle-content {
