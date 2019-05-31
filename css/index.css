@@ -29,8 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -174,7 +175,23 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    animation-duration: 2s;
+    animation-name: slide-and-fade;
 }
+
+@keyframes slide-and-fade {
+    from {
+      margin-left: 100%;
+      width: 200%;
+      opacity: 0;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+      opacity: 1;
+    }
+  }
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -189,6 +206,21 @@ header nav a {
 
 #box1 {
     background-color: teal;
+}
+
+.box:hover {
+    animation-name: fade-away;
+    animation-duration: 2s;
+}
+
+@keyframes fade-away {
+    from {
+        opacity: 1;
+    }
+    
+    to {
+        opacity: 0;
+    }
 }
 
 #box2 {
