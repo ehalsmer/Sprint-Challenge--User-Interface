@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML uses meaningful HTML tags to give your web pages structure and clarity. This helps other developers understand your site's structure, and search algorithms find what they're looking for. HTML 5 is the current standard. In contrast to semantic HTML, presentational HTML uses more div tags to achieve stylistic goals and improve presentation.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+One major difference is that while display: block will take up as much space as the parent allows, display: inline will only take as much space as its content requires. Another difference is that display: block will always start on a new line, while display: inline will not. 
 
 3. What are the 4 areas of the box model?
 
+From innermost to outermost: content, padding, border, and margin. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+On the cross-axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git does several things that helps a team:
+ - Version control creates a linked chain of backups, providing a safety net the team can revert to if something goes wrong. 
+ - It keeps code organized while collaborating, so that the team can check for merge conflicts before merging code.
+ - It provides space to experiment with new features or ideas (by forking, branching), without disrupting the master code base. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
