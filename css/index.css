@@ -304,3 +304,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.contact-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form {
+    margin: 0px auto;
+    width: 200px;
+    padding: 20px;
+}
+
+form button {
+    margin: 10px 0px;
+}
+
+.form-header {
+    text-align: center;
+    margin: 30px;
+}
